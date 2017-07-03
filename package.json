@@ -4,7 +4,9 @@
   "description": "This is for AWS tutorial ",
   "main": "app.js",
   "scripts": {
-    "test": "node app.js"
+    "restart": "pm2 startOrRestart ecosystem.config.js",
+    "deploy": "pm2 deploy ecosystem.config.js production",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/dhamecharahul/AWS-Tutorial-Repo/issues"
   },
-  "homepage": "https://github.com/dhamecharahul/AWS-Tutorial-Repo#readme"
+  "homepage": "https://github.com/dhamecharahul/AWS-Tutorial-Repo#readme",
+  "devDependencies": {
+    "pm2": "^2.5.0"
+  }
 }
