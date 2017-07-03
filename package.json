@@ -1,0 +1,19 @@
+{
+  "name": "rahul-aws-tutorial",
+  "version": "1.0.0",
+  "description": "This is for AWS tutorial ",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhamecharahul/AWS-Tutorial-Repo.git"
+  },
+  "author": "Rahul Dhamecha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhamecharahul/AWS-Tutorial-Repo/issues"
+  },
+  "homepage": "https://github.com/dhamecharahul/AWS-Tutorial-Repo#readme"
+}
