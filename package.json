@@ -1,12 +1,10 @@
 {
-  "name": "rahul-aws-tutorial",
+  "name": "aws",
   "version": "1.0.0",
-  "description": "This is for AWS tutorial ",
-  "main": "app.js",
+  "description": "this is test applicaiton by rahul dhamecha",
+  "main": "node app.js",
   "scripts": {
-    "restart": "pm2 startOrRestart ecosystem.config.js",
-    "deploy": "pm2 deploy ecosystem.config.js production",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -17,8 +15,5 @@
   "bugs": {
     "url": "https://github.com/dhamecharahul/AWS-Tutorial-Repo/issues"
   },
-  "homepage": "https://github.com/dhamecharahul/AWS-Tutorial-Repo#readme",
-  "devDependencies": {
-    "pm2": "^2.5.0"
-  }
+  "homepage": "https://github.com/dhamecharahul/AWS-Tutorial-Repo#readme"
 }
